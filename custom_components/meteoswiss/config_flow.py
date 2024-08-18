@@ -9,18 +9,14 @@ from homeassistant import config_entries
 from homeassistant.helpers import issue_registry as ir
 from homeassistant.helpers.issue_registry import IssueSeverity
 
-from custom_components.meteoswiss.const import (
-    CONF_FORECAST_NAME,
-    CONF_LAT,
-    CONF_LON,
-    CONF_NAME,
-    CONF_POSTCODE,
-    CONF_REAL_TIME_NAME,
-    CONF_STATION,
-    CONF_UPDATE_INTERVAL,
-    DEFAULT_UPDATE_INTERVAL,
-    DOMAIN,
-)
+from custom_components.meteoswiss.const import (CONF_FORECAST_NAME, CONF_LAT,
+                                                CONF_LON, CONF_NAME,
+                                                CONF_POSTCODE,
+                                                CONF_REAL_TIME_NAME,
+                                                CONF_STATION,
+                                                CONF_UPDATE_INTERVAL,
+                                                DEFAULT_UPDATE_INTERVAL,
+                                                DOMAIN)
 
 _LOGGER = logging.getLogger(__name__)
 

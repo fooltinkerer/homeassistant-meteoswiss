@@ -2,13 +2,13 @@
     "domain": "meteoswiss",
     "name": "Meteo Swiss",
     "codeowners": [
-        "@Rudd-O"
+        "@fooltinkerer"
     ],
     "config_flow": true,
     "dependencies": [],
-    "documentation": "https://github.com/Rudd-O/homeassistant-meteoswiss",
+    "documentation": "https://github.com/fooltinkerer/homeassistant-meteoswiss",
     "iot_class": "cloud_polling",
-    "issue_tracker": "https://github.com/Rudd-O/homeassistant-meteoswiss/issues",
+    "issue_tracker": "https://github.com/fooltinkerer/homeassistant-meteoswiss/issues",
     "quality_scale": "silver",
     "requirements": [
         "hamsclientfork==0.2.8",
